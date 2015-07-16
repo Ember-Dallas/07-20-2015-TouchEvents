@@ -16,6 +16,23 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
+    },
+
+    mobileTouch: {
+      // use: [
+      //   'tap',
+      //   'press',
+      //   'pan',
+      //   'swipe'
+      // ],
+
+      tune: {
+        tap: { time : 250, threshold : 9 },
+        press: { time : 251, threshold : 9 },
+
+//        press: { time : 500, threshold : 25 },
+        swipe: { velocity : 0.3, threshold : 25 }
+      }
     }
   };
 
