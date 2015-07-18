@@ -7,6 +7,7 @@ var Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('actions');
+  this.route('links');
 });
 
 export default Router;
