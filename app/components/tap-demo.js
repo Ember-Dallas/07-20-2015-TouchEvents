@@ -15,7 +15,7 @@ export default Ember.Component.extend({
 
         Ember.run.later( () => {
             this.toggleProperty( 'tapped' );
-        }, 1000 );
+        }, 200 );
     }
 
 });
