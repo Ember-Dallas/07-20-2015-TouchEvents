@@ -19,18 +19,9 @@ module.exports = function(environment) {
     },
 
     mobileTouch: {
-      // use: [
-      //   'tap',
-      //   'press',
-      //   'pan',
-      //   'swipe'
-      // ],
-
       tune: {
         tap: { time : 250, threshold : 9 },
         press: { time : 251, threshold : 9 },
-
-//        press: { time : 500, threshold : 25 },
         swipe: { velocity : 0.3, threshold : 25 }
       }
     }
